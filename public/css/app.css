@@ -1,0 +1,18 @@
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex-grow: 1;
+}
+
+.home_slide {
+    height: 35rem;
+    margin-bottom: 2.5rem;
+}
+
+.log {
+    text-decoration: none !important;
+}
