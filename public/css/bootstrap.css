@@ -2399,6 +2399,26 @@ a.btn.disabled,
 fieldset:disabled a.btn {
     pointer-events: none;
 }
+.btn-isikar{
+    color: #fff !important;
+    background-color: #86282C;
+    border-color: #86282C;
+}
+.btn-isikar:hover{
+    color: #fff !important;
+    background-color: #67060a;
+    border-color: #67060a;
+}
+.btn-isikag{
+    color: #fff !important;
+    background-color: #d9d9d9;
+    border-color: #d9d9d9;
+}
+.btn-isikag:hover{
+    color: #fff !important;
+    background-color: #888686;
+    border-color: #888686;
+}
 .btn-primary {
     color: #fff;
     background-color: #007bff;
@@ -5636,6 +5656,12 @@ button.close {
 .align-text-top {
     vertical-align: text-top !important;
 }
+.bg-isikar{
+    background-color: #86282C !important;
+}
+.bg-isikag{
+    background-color: #d9d9d9 !important;
+}
 .bg-primary {
     background-color: #007bff !important;
 }
@@ -8177,6 +8203,12 @@ button.bg-dark:hover {
 }
 .font-italic {
     font-style: italic !important;
+}
+.text-isikar{
+    color: #86282c !important;
+}
+.text--isikag{
+    color: #d9d9d9 !important;
 }
 .text-white {
     color: #fff !important;

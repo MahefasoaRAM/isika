@@ -27,7 +27,7 @@
                 <input type="password" id="form2Example4" class="form-control" />
             </div>
             <div class='form-group text-center'>
-                <button type="submit" class="btn btn-primary mb-4">S'inscrire</button>
+                <button type="submit" class="btn btn-isikar mb-4">S'inscrire</button>
             </div>
             <div class="text-center">
                 <p>Déjà membre ? <a href=" {{url('/login')}} " class="log">Se connecter</a></p>

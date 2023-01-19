@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class='form-group text-center'>
-                <button type="submit" class="btn btn-primary mb-4">Se connecter</button>
+                <button type="submit" class="btn btn-isikar mb-4">Se connecter</button>
             </div>
             <div class="text-center">
                 <p>Pas encore membre ? <a href=" {{url('/register')}} " class="log">S'inscrire</a></p>

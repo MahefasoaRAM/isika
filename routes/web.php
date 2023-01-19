@@ -21,3 +21,4 @@ Route::get('/about', function(){ return view('front.about'); });
 Route::get('/event', function(){ return view('front.event'); });
 Route::get('/project', function(){ return view('front.project'); });
 Route::get('/forgotpassword', function(){ return view('front.forgotpwd'); });
+Route::get('/suggest', function(){ return view('front.suggest.list'); });

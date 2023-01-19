@@ -11,7 +11,7 @@
             <input type="text" name="email" class="form-control"/>
             </div>
             <div class='form-group text-center'>
-            <button class="text-capitalize btn btn-primary"><i class="fas fa-paper-plane"></i> envoyer</button>
+            <button class="text-capitalize btn btn-isikar"><i class="fas fa-paper-plane"></i> envoyer</button>
             </div>
         </form>
     </div>
