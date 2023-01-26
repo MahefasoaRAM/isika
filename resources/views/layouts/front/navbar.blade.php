@@ -28,30 +28,5 @@
                 <a href=" {{url('/about')}} " class="nav-link">À propos</a>
             </li>
         </ul>
-        <ul class="navbar-nav">
-            @if(Auth::user())
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="menu1" data-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-regular fa-user fa-sm"></i>
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="menu1" id="drop">
-                        <li class="dropdown-item">{{Auth::user()->prenom}}</li>
-                        <li>
-                            <form action="#" method="post">
-                                @csrf
-                                <button class="dropdown-item btn btn-isikar" type="submit">Se déconnecter</button>
-                            </form>
-                        </li>
-                    </ul>
-                </li>
-            @else
-                <li class="nav-item">
-                    <a href=" {{url('/login')}} " class="nav-link btn btn-isikar">
-                        Se connecter
-                    </a>
-                </li>
-            @endif
-        </ul>
     </div>
-
 </nav>

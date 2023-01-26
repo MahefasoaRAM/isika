@@ -1,4 +1,4 @@
-<footer class="text-lg-start bg-isikag text-muted">
+<footer class="text-lg-start bg-isikar text-white">
     <section>
       <div class="container text-center text-md-start mt-5">
         <div class="row">
@@ -45,7 +45,7 @@
         </div>
       </div>
     </section>
-    <div class="p-4 d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.05);">
+    <div class="p-4 d-flex justify-content-between" style="background-color: rgba(0, 0, 0, 0.09);">
         <span>© 2022 Copyright: <a class="text-reset fw-bold log h5" href="#">ISIKA </a>- All rights reserved</span>
         <span>Développé par <span class="fw-bold h5">RABARINJAKA ANDRITSILAVO Mahefasoa</span></span>
     </div>
