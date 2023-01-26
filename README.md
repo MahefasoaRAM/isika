@@ -14,9 +14,9 @@ Clone this repository or download this app
 
 Then into the app folder run this commands :
 
-- `$composer install`
-- `$cp .env.example .env`
-- `$php artisan key:generate`
-- `$php artisan serve`
+- `composer install`
+- `cp .env.example .env`
+- `php artisan key:generate`
+- `php artisan serve`
 
 Then go to `http://localhost:8000` from your browser and see the app.
