@@ -35,6 +35,8 @@
         <script src=" {{asset('js/feather.js')}} "></script>
         <script src=" {{asset('js/fontawesome.js')}} "></script>
         <script src=" {{asset('js/popper.js')}} "></script>
+        <script src=" {{asset('js/tinymce/tinymce.min.js')}} "></script>
+        @yield('script')
     {{-- fin script --}}
 </body>
 </html>

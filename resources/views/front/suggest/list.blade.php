@@ -5,6 +5,9 @@
 @section('content')
 
 <div class="w-75 m-auto">
+    <div class="mt-5 text-center">
+        <a href=" {{url('/addsuggest')}} " class="btn btn-isikar font-weight-bold">Soumettre une proposition</a>
+    </div>
     <div class="row mt-5">
         <div class="col-lg-2 col-md-2 col-sm-12">
             @include('layouts.front.filtersuggest')

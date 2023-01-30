@@ -19,3 +19,4 @@ Route::get('/about', function(){ return view('front.about'); });
 Route::get('/event', function(){ return view('front.event'); });
 Route::get('/project', function(){ return view('front.project'); });
 Route::get('/suggest', function(){ return view('front.suggest.list'); });
+Route::get('/addsuggest', function(){ return view('front.suggest.add');});
