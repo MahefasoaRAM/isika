@@ -7,10 +7,10 @@
 <div class="w-75 m-auto">
     <div class="row mt-5 mb-3">
         <div class="col-md-6">
-            <h3>Card title</h3>
-            <h3>Région</h3>
-            <h3>Commune</h3>
-            <h3>Quartier</h3>
+            <h2>Card title</h2>
+            <h5>Région</h5>
+            <h5>Commune</h5>
+            <h5>Quartier</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
         <div class="col-md-6">
